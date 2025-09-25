@@ -72,7 +72,7 @@ export default function Email() {
         setStatus({ type: "info", message: "Sending..." });
 
         try {
-            const response = await fetch(`/mailer`, {
+            const response = await fetch(`${API_URL}/mailer`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
