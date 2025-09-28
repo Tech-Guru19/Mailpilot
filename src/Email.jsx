@@ -63,7 +63,7 @@ export default function Email() {
         if (!toRaw.trim()) newErrors.to = "To is required";
         if (!subject.trim()) newErrors.subject = "Subject required";
         if (!html.trim()) newErrors.html = "Message required";
-        if (password !== "11779904") newErrors.password = "Password must be 123456";
+        if (password !== "11779904") newErrors.password = "Password is invalid";
 
         setErrors(newErrors);
         if (Object.keys(newErrors).length > 0) return;
@@ -223,7 +223,7 @@ export default function Email() {
                                 </div>
 
                                 <div className="mb-3">
-                                    <label className="form-label">Password (11779904)</label>
+                                    <label className="form-label">Password</label>
                                     <input
                                         type="password"
                                         className={`form-control ${errors.password ? "is-invalid" : ""}`}
