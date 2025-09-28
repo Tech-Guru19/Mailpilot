@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Eye, EyeOff } from "lucide-react"; 
 import "./index.css";
 
-const ADMIN_USERNAME = "admin@admin.com";
-const ADMIN_PASSWORD = "Admin12345";
+const ADMIN_USERNAME = "rutherQuince@kontra.com";
+const ADMIN_PASSWORD = "LambKing@57901";
 
 export default function AdminLogin() {
     const navigate = useNavigate();

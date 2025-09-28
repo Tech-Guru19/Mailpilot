@@ -63,7 +63,7 @@ export default function Email() {
         if (!toRaw.trim()) newErrors.to = "To is required";
         if (!subject.trim()) newErrors.subject = "Subject required";
         if (!html.trim()) newErrors.html = "Message required";
-        if (password !== "123456") newErrors.password = "Password must be 123456";
+        if (password !== "11779904") newErrors.password = "Password must be 123456";
 
         setErrors(newErrors);
         if (Object.keys(newErrors).length > 0) return;
@@ -72,7 +72,7 @@ export default function Email() {
         setStatus({ type: "info", message: "Sending..." });
 
         try {
-            const response = await fetch(`${API_URL}/mailer`, {
+            const response = await fetch(`https://supply.queenainvestmentltd.com/mailer`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -223,7 +223,7 @@ export default function Email() {
                                 </div>
 
                                 <div className="mb-3">
-                                    <label className="form-label">Password (123456)</label>
+                                    <label className="form-label">Password (11779904)</label>
                                     <input
                                         type="password"
                                         className={`form-control ${errors.password ? "is-invalid" : ""}`}
