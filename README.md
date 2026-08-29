@@ -1,22 +1,24 @@
-# ✉️ Mailpilot
+# Mailpilot
 
-A clean, focused **email client UI** with a rich-text composer — built with React and Bootstrap. Compose, view, and manage emails in a modern, distraction-free interface.
+## Overview
 
-## ✨ Features
+A focused email client interface with a rich-text composer, built with React and Bootstrap. Mailpilot provides a clean, distraction-free environment for composing and managing emails.
 
-- 🖊️ **Rich text composer** — powered by react-simple-wysiwyg
-- 🔐 **Login screen** — simple auth gate
-- 📥 **Email view** — browse and manage messages
-- 🎨 **Polished design** — Lucide icons + Bootstrap styling
+## Key Features
 
-## 🧱 Tech Stack
+- **Rich-text composer:** Powered by react-simple-wysiwyg
+- **Authentication gate:** Login screen with route protection
+- **Email management:** Browse and manage messages
+- **Professional design:** Lucide icons with Bootstrap styling
 
-- React 19 + Vite
-- React Bootstrap + Bootstrap 5
-- react-simple-wysiwyg, lucide-react
+## Technology Stack
+
+- React 19 with Vite
+- React Bootstrap and Bootstrap 5
+- react-simple-wysiwyg and lucide-react
 - React Router 7
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/Tech-Guru19/Mailpilot.git
@@ -25,6 +27,6 @@ npm install
 npm run dev
 ```
 
-## 👩‍💻 Author
+## Author
 
-**[Obiasogu Esther Chizaram](https://github.com/Tech-Guru19)**
+[Obiasogu Esther Chizaram](https://github.com/Tech-Guru19)
